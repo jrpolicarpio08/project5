@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parser":"babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 13,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-console": "off",
+        "no-param-reassign": "off",
+        "no-use-before-define": "off",
+        "react/jsx-filename-extension": "off",
+        "no-undef": "off",
+        "react/prop-types": "off",
+        "react/button-has-type": "off",
+        "react/destructuring-a": "off",
+        "import/order": "off",
+        "import/no-unresolved": "off",
+        "no-unused-vars": "off",
+        "react/destructuring-assignment": "off",
+        "jsx-a11y/alt-text": "off"
+    }
+}
